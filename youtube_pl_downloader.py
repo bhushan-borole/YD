@@ -6,7 +6,6 @@ import sys
 import time
 
 start_time = 0
-url_pl = 'https://www.youtube.com/playlist?list=PLObNowOPccbtYbBNOmIlz0zb8OeoQlNlU'
 
 def get_title(url):
 	page = requests.get(url)
